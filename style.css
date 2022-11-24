@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+body{
+    background-color: #121212;
+}
+.nav-menu{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    animation-name: pulsar;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    position: fixed
+}
+.nav-menu-bot{
+    font-size: 20px;
+}
+.nav-menu a{
+    color: white;
+    text-decoration: none;;
+}
+.nav-container{
+    float: right;
+    
+}
+.nav-item{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.headder{
+    position: re;
+    height: 80vh;
+    background-image:url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg);
+}
+.headder-content{
+    transform: translateY(-50%);
+    position: absolute;
+    left: 0;
+    top:50%;
+    margin-left: 30px;
+}
+.headder-content h1{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4e4e4e;
+    margin-bottom: 50px;
+}
+.headder-content h3{
+    color: #4e4e4e;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.headder-content a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background:linear-gradient( 45deg, #65daff, #70ffcb);
+    width: 600px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 50px;
+}
+.nav-item:hover{
+    text-shadow: 0 0 10px #65daff;
+    color: ;
+}
+.offer-logos{
+    display: inline-block;
+    width: 20%;
+    height: 200px;
+    vertical-align:top;
+    text-align: center;
+    color: #65daff;
+    font-size: 30px;
+}
+.offer{
+    margin-top: 50px;
+    height: 40vh;
+
+}
+.offer-logos img{
+    height: 80px;
+}
+.games-txt{
+    width: 49%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    
+}
+.games-img{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 49%;
+    height: 350px;
+
+}
+.cs{
+    background-image:url(img/csgo.jpg);
+}
+.dt{
+    background-image:url(img/dota2.jpg);
+}
+.ap{
+    background-image:url(img/apex.jpg);
+}
+.games-container{
+    box-shadow: 0 0 20px   black;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.games-headder{
+    color: #65daff;
+}
+.games-h{
+    color: #70ffcb;
+    margin: 10px 20px;
+}
+.games-hr{
+    background-color: #70ffcb;
+    width: 150px;
+    height: 0.02px;
+    margin: 10px 20px;
+
+}
+.games-p{
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 300;
+    margin: 10px 20px;
+
+}
+.info-text h1{
+    color:#65daff;
+}
+.info-text p{
+    margin: 20px 0px;
+    color: gray;
+}
+.info-text{
+    padding: 20px;
+    text-align: center;
+}
+.sign-hr{
+    width: 150px;
+    margin: auto;
+}
+.sign-text{
+    text-align: center;
+    color: #65daff;
+}
+.sign{
+    
+    
+    width: ;
+}
+.sign-up{
+    background-color: #65daff;
+    padding: 50px;
+    margin: 10px auto;
+    height: 100px;
+    width: 70%;
+}
+.sign-container{
+    box-shadow: 0 0 20px   black;
+    padding: 50px 0;
+    text-align: center;
+    margin:50px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes pulsar{
+    0%{
+        box-shadow: 0 5px 20px #65daff;
+    }
+    50%{
+        box-shadow:  0 5px 50px #65daff;
+    }
+    100%{
+        box-shadow:  0 5px 20px #65daff;
+    }
+}
